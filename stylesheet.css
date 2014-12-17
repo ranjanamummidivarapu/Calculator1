@@ -1,0 +1,59 @@
+body>div{
+	background-color:azure;
+    width:340px;
+    height:300px;
+	border:solid;
+	display:inline;
+    position:relative;
+    float:left;
+	
+}
+div#numbers_div
+{
+    display:inline;
+    position:relative;
+    float:left;
+    width:150px;
+    height:300px;
+    margin-left:5%;
+    padding:0px;
+}
+div#operators_div
+{
+    display:inline;
+    float:left;
+    position:relative;
+    width:150px;
+    height:300px;
+    margin-right:5%;
+    padding:0px;
+}
+button
+{
+    width:40px;
+    height:40px;
+    margin:5px;
+    border-style:solid;
+    border-radius:15px;
+    border-style:solid;
+    border-color:black;
+    font-size:20px;
+    background-color:lightblue;
+}
+button#b9,button#equalTo,button#clear
+{
+    width:140px;
+}
+input[type=text]
+{
+    width:285px;
+    height:40px;
+    disabled:true;
+    direction:rtl;
+	margin:5px;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:25px;
+    border-style:solid;
+    background-color:white;
+}
